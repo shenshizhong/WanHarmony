@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/SplashPage",
+    "pages/MainPage",
+    "pages/home/HomePage",
+    "pages/square/SquarePage",
+    "pages/WebPage",
+    "pages/mine/MinePage",
+    "pages/register/RegisterPage",
+    "pages/home/SearchPage",
+    "pages/SystemPage",
+    "pages/TestPage",
+    "pages/navi/NaviPage"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/ssz/.ohos/config/auto_debug_WanHarmony_com.ssz.wanharmony_2850086000365435829.cer",
+          "storePassword": "0000001BE892EA77994F5F80957A5681999A202A1EEE252CE200661DBE0236E03349EFDE1CC8497E80D0A9",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BCDE4621B4BC4396390C6EC447BCA59C5F761CAACD54C192894B3F222316B3F382C92C22B9D207E",
+          "profile": "/Users/ssz/.ohos/config/auto_debug_WanHarmony_com.ssz.wanharmony_2850086000365435829.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/ssz/.ohos/config/auto_debug_WanHarmony_com.ssz.wanharmony_2850086000365435829.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "WanHarmony"
+    },
+    {
+      "name": "internet_permission_reason",
+      "value": "获取网络数据"
+    },
+    {
+      "name": "load_retry",
+      "value": "加载失败，点击重试"
+    },
+    {
+      "name": "load_nothing",
+      "value": "没有数据"
+    },
+    {
+      "name": "str_welcome",
+      "value": "欢迎到来"
+    },
+    {
+      "name": "str_register",
+      "value": "注册"
+    },
+    {
+      "name": "str_login",
+      "value": "登录"
+    },
+    {
+      "name": "str_hot_search",
+      "value": "热门搜索"
+    },
+    {
+      "name": "str_search_history",
+      "value": "搜索历史"
+    }
+  ]
+}
